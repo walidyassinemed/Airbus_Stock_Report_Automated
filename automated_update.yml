@@ -2,8 +2,8 @@ env:
   requirements: '["pandas-datareader==0.9.0"]'
 on:
   schedule:
-    # runs at 06:00 UTC every day
-    - cron:  '0 6 * * *'
+    # runs at 05:00 UTC every day
+    - cron:  '0 5 * * *'
 jobs:
   build_report:
     runs-on: ubuntu-latest
